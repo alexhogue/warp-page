@@ -7,6 +7,10 @@
   src: url("typefaces/GT-Walsheim-Pro-Light.otf");
 }
 @font-face {
+  font-family: "GT-med";
+  src: url("typefaces/GT-Walsheim-Pro-Medium.otf");
+}
+@font-face {
   font-family: "MonumentGrotesk";
   src: url("typefaces/monument-grotesk-regular.otf");
 }
@@ -26,11 +30,11 @@
 
 h1 {
   font-size: 44px;
-  font-family: "GT";
+  font-family: "GT-med";
 }
 h2 {
-  font-size: 24px;
-  font-family: "GoodSans";
+  font-size: 26px;
+  font-family: "GT-med";
   color: #474747;
 }
 h3 {
@@ -40,8 +44,8 @@ h3 {
   color: #474747;
 }
 h4 {
-  font-size: 18px;
-  font-family: "BasisGrotesk";
+  font-size: 20px;
+  font-family: "GT";
   min-width: 150px;
   color: #474747;
 }
@@ -51,25 +55,30 @@ h5 {
 }
 p,
 li,
-th, button {
+th {
   font-size: 18px;
   font-family: "BasisGrotesk";
   line-height: 30px;
+}
+label, button{
+  font-size: 14px;
+  font-family: "BasisGrotesk";
+  line-height: 24px;
 }
 li:not(:last-child) {
   margin-bottom: 10px;
 }
 
 #titleArea {
-  margin-left: 12%;
-  margin-right: 12%;
-  margin-top: 8%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
   /* margin-bottom: 8%; */
 }
 
 .section {
-  margin-left: 12%;
-  margin-right: 12%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-top: 4%;
 }
 .h3-section {
@@ -99,9 +108,9 @@ a:hover {
 }
 
 #reflection {
-  margin-bottom: 12%;
-  margin-left: 12%;
-  margin-right: 12%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-top: 8%;
   min-width: 325px;
 }
@@ -130,7 +139,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   min-width: 250px;
-  width: 55%;
+  width: 50%;
 }
 .carousel-container {
   width: 100%;
